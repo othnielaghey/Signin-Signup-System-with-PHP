@@ -42,7 +42,6 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `user_type`, `password`) VALUES
-(1, 'othnielaghey', 'othnielignacio@gmail.com', 'admin', '123'),
 (5, 'user1', 'user1@gmail.com', 'user', '123'),
 (6, 'user2', 'user2@gmail.com', 'user', '123'),
 (7, 'user10', 'user10@gmail.com', 'admin', '123');
