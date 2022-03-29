@@ -43,8 +43,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`id`, `username`, `email`, `user_type`, `password`) VALUES
 (5, 'user1', 'user1@gmail.com', 'user', '123'),
-(6, 'user2', 'user2@gmail.com', 'user', '123'),
-(7, 'user10', 'user10@gmail.com', 'admin', '123');
+(6, 'user2', 'user2@gmail.com', 'user', '456'),
+(7, 'user10', 'user10@gmail.com', 'admin', '789');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
